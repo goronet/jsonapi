@@ -7,7 +7,7 @@ use Tests\TestCase;
 
 class {{ class }} extends TestCase
 {
-    user RefreshDatabase;
+    use RefreshDatabase;
 
     /** @test void */
     public function it_can_test()
